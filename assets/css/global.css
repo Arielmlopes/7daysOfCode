@@ -35,7 +35,7 @@ ul li a{
     display: flex;
     gap: 10px;
 }
-.botaos button{
+button{
     width: 112px;
     height: 44px;
     border-radius: 8px;
@@ -46,4 +46,26 @@ ul li a{
     line-height: 24px;
     border: none;
     cursor: pointer;
+}
+
+
+.botaoEntrar {
+    color: #667085;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+.botaoEntrar:hover {
+    color: #667085;
+    background-color: rgb(233, 233, 233);
+}
+
+.botaoCadastrar {
+    background-color: #8e2424;
+    color: #fff;
+    transition: 0.5s;
+}
+.botaoCadastrar:hover {
+    background-color: #631212;
+    color: #fff;
 }

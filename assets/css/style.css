@@ -23,34 +23,14 @@
     color: #667085;
 }
 
-.botaoEntrar {
-    color: #667085;
-    background-color: #fff;
-    transition: 0.5s;
-}
-
-.botaoEntrar:hover {
-    color: #667085;
-    background-color: rgb(233, 233, 233);
-}
-
-.botaoCadastrar {
-    background-color: #8e2424;
-    color: #fff;
-    transition: 0.5s;
-}
-.botaoCadastrar:hover {
-    background-color: #631212;
-    color: #fff;
-}
-
-
 .sobrenos {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.sobrenos > span , .vagas-contain > span , .comentarios > span{
+.sobrenos > span,
+.vagas-contain > span,
+.comentarios > span {
     font-family: "Inter";
     font-style: normal;
     font-weight: 600;
@@ -59,7 +39,7 @@
     color: #8e2424;
     text-align: center;
 }
-.sobrenos h1{
+.sobrenos h1 {
     font-family: "Inter";
     font-style: normal;
     font-weight: 600;
@@ -68,7 +48,9 @@
     margin: 24px 0;
 }
 
-.sobrenos > p, .vagas-contain > p, .comentarios > p {
+.sobrenos > p,
+.vagas-contain > p,
+.comentarios > p {
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
@@ -77,12 +59,12 @@
     color: #667085;
     text-align: center;
 }
-.sobrenos > p{
+.sobrenos > p {
     max-width: 70ch;
 }
 .contador {
-   display: grid;
-   grid-template-columns: repeat(4,1fr);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 20px;
     margin: 96px 0;
@@ -102,18 +84,18 @@
     font-family: "Inter";
     font-style: normal;
     font-weight: 600;
-    font-size: 18px; 
+    font-size: 18px;
     line-height: 28px;
     color: #101828;
 }
 
-.contador .item-contador p{
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #667085;
+.contador .item-contador p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
 }
 
 .vagas-contain {
@@ -131,27 +113,25 @@ color: #667085;
     line-height: 60px;
     margin: 24px 0;
     text-align: center;
-
 }
-.vagas-contain > span{
+.vagas-contain > span {
     color: #854e4e;
 }
-.vagas-contain img{
+.vagas-contain img {
     margin-top: 60px;
     border-radius: 5px;
 }
 
-.vagas-item-contain{
-    width: 800px ;
+.vagas-item-contain {
+    width: 800px;
     margin: 0 auto;
     margin-top: 40px;
-
 }
-.vagas-item-contain h3{
+.vagas-item-contain h3 {
     margin-top: 20px;
 }
 
-.item-vaga{
+.item-vaga {
     background-color: #fcfcfc;
     border: 1px solid #cccccc;
     border-radius: 10px;
@@ -159,30 +139,97 @@ color: #667085;
     margin-top: 20px;
 }
 
-.item-vaga h3{
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 28px;
-color: #464646;
+.item-vaga h3 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #464646;
 }
 
-.tempo-salario{
+.tempo-salario {
     margin-top: 20px;
     display: flex;
     gap: 30px;
     color: #667085;
 }
-.comentarios{
+.comentarios {
     text-align: center;
     margin-bottom: 90px !important;
 }
 
-.comentarios h2{
+.comentarios h2 {
     font-size: 36px;
     font-weight: 500;
     font-family: "Inter";
     font-style: normal;
     margin: 24px 0;
+}
+.dados-comentario img {
+    margin: 0 auto;
+    border-radius: 50%;
+    max-width: 80px;
+}
+
+.dados-comentario h3 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #101828;
+}
+
+.dados-comentario span {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #667085;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 180px !important;
+    margin-bottom: 80px !important;
+}
+
+.footer-container h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+text-align: center;
+letter-spacing: -0.02em;
+}
+
+.footer-container p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #667085;
+margin: 30px 0;
+
+}
+
+.footer-container  input{
+    width: 312px;
+    height: 44px;
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+    padding: 0 0 0 20px;
+    text-transform: uppercase;
+}
+
+.footer-container .direitoReservado{
+    font-size: 16px;
 }
