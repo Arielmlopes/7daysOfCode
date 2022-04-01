@@ -1,0 +1,188 @@
+/*---------------------- menus---------------------- */
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 96px;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.menu ul li a {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+}
+
+.botaoEntrar {
+    color: #667085;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+.botaoEntrar:hover {
+    color: #667085;
+    background-color: rgb(233, 233, 233);
+}
+
+.botaoCadastrar {
+    background-color: #8e2424;
+    color: #fff;
+    transition: 0.5s;
+}
+.botaoCadastrar:hover {
+    background-color: #631212;
+    color: #fff;
+}
+
+
+.sobrenos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sobrenos > span , .vagas-contain > span , .comentarios > span{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8e2424;
+    text-align: center;
+}
+.sobrenos h1{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    margin: 24px 0;
+}
+
+.sobrenos > p, .vagas-contain > p, .comentarios > p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #667085;
+    text-align: center;
+}
+.sobrenos > p{
+    max-width: 70ch;
+}
+.contador {
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding: 20px;
+    margin: 96px 0;
+}
+
+.contador .item-contador h3 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    color: #8e2424;
+}
+
+.contador .item-contador span {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px; 
+    line-height: 28px;
+    color: #101828;
+}
+
+.contador .item-contador p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #667085;
+}
+
+.vagas-contain {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 96px !important;
+}
+
+.vagas-contain h2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 60px;
+    margin: 24px 0;
+    text-align: center;
+
+}
+.vagas-contain > span{
+    color: #854e4e;
+}
+.vagas-contain img{
+    margin-top: 60px;
+    border-radius: 5px;
+}
+
+.vagas-item-contain{
+    width: 800px ;
+    margin: 0 auto;
+    margin-top: 40px;
+
+}
+.vagas-item-contain h3{
+    margin-top: 20px;
+}
+
+.item-vaga{
+    background-color: #fcfcfc;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.item-vaga h3{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+color: #464646;
+}
+
+.tempo-salario{
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    color: #667085;
+}
+.comentarios{
+    text-align: center;
+    margin-bottom: 90px !important;
+}
+
+.comentarios h2{
+    font-size: 36px;
+    font-weight: 500;
+    font-family: "Inter";
+    font-style: normal;
+    margin: 24px 0;
+}
