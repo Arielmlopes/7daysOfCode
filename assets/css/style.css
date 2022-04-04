@@ -123,9 +123,10 @@
 }
 
 .vagas-item-contain {
-    width: 800px;
+    width: 100%;
     margin: 0 auto;
     margin-top: 40px;
+    padding: 20px;
 }
 .vagas-item-contain h3 {
     margin-top: 20px;

@@ -1,0 +1,72 @@
+@media(max-width:800px){
+    .menu {
+        display: none;
+    }
+    .contador{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .comentarios h2{
+        font-size: 1.8rem;
+    }
+ 
+
+  
+    .Menu-mobile.ativo{
+        display: flex;
+    }
+    
+
+}
+
+@media(max-width:500px){
+    .menu{
+        margin-bottom: 30px;
+    }
+    .sobrenos{
+        padding: 30px;
+    }
+    .sobrenos h1{
+        font-size: 1.7rem;
+        margin: 5px 0;
+    }
+    .contador{
+        display: grid;
+        grid-template-columns:1fr;
+        text-align: center;
+        margin: 30px;
+    }
+    .vagas-contain{
+        margin-bottom: 30px !important;
+    }
+    .vagas-contain h2{
+        font-size: 1.7rem;
+        line-height: 30px;
+    }
+    .comentarios{
+        margin-bottom: 30px !important;
+        padding: 0 50px;
+    }
+    .comentarios h2{
+        font-size: 1.3rem;
+        margin-top: 14px;
+    }
+    .comentarios > span{
+        font-size: 16px;
+        }
+    .footer-container{
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+    .footer-container{
+        text-align: center;
+        padding: 39px;
+    }
+    .footer-container h2{
+        font-size: 1.8rem;
+        line-height: 30px;
+    }
+    .footer-container button{
+        margin-top: 20px;
+    }
+}
