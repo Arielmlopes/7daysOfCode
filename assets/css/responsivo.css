@@ -1,6 +1,40 @@
-@media(max-width:800px){
-    .menu {
-        display: none;
+@media(max-width:850px){
+    /* .menu .logo{
+        z-index: 1;
+        background-color: white;
+        border-radius: 5px;
+        padding: 10px;
+    } */
+    .nav-list{
+        position: absolute;
+        top:0;
+        right: 0;
+        width: 50vw;
+        height: 100vh;
+        background-color: rgb(255, 255, 255);
+        flex-direction: column;
+        gap: 40px;
+        transform: translateX(150%);
+        transition: 0.6s;
+        box-shadow: -23px 27px 73px 3px rgba(0, 0, 0, 0.15);
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
+        padding: 60px 30px;
+    }
+  
+    .nav-list li a:hover{
+        opacity: 0.7;
+    }
+    .nav-list.active{
+        transform: translateX(0);
+    }
+    .botaos{
+        flex-direction: column-reverse;
+        margin-left: 0 !important;
+    }
+    .mobile-menu{
+        display: block;
+        z-index: 1;
     }
     .contador{
         display: grid;
@@ -9,12 +43,10 @@
     .comentarios h2{
         font-size: 1.8rem;
     }
- 
-
-  
-    .Menu-mobile.ativo{
-        display: flex;
+    #buttonMenuFechar{
+        display: none;
     }
+    
     
 
 }
@@ -29,6 +61,8 @@
     .sobrenos h1{
         font-size: 1.7rem;
         margin: 5px 0;
+        text-align: center;
+        line-height: 30px;
     }
     .contador{
         display: grid;
@@ -68,5 +102,9 @@
     }
     .footer-container button{
         margin-top: 20px;
+    }
+    .direitoReservado{
+        line-height: 20px !important;
+        margin-bottom: 80px !important;
     }
 }

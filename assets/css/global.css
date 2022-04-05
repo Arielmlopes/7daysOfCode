@@ -10,6 +10,7 @@
 
 body{
     font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
 }
 
 img{
@@ -34,6 +35,7 @@ ul li a{
 .botaos{
     display: flex;
     gap: 10px;
+    margin-left: 50px;
 }
 button{
     width: 112px;

@@ -2,13 +2,13 @@
 
 .menu {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 20px;
     margin-bottom: 96px;
 }
 
-.menu ul {
+.menu .nav-list {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,6 +21,12 @@
     font-size: 16px;
     line-height: 24px;
     color: #667085;
+}
+.mobile-menu {
+    font-size: 40px;
+    color: #8e2424;
+    cursor: pointer;
+    display: none;   
 }
 
 .sobrenos {
@@ -46,6 +52,7 @@
     font-size: 48px;
     line-height: 60px;
     margin: 24px 0;
+    text-align: center;
 }
 
 .sobrenos > p,
